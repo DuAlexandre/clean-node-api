@@ -16,4 +16,6 @@ Início do Projeto:
 
 03 - npm i -D git-commit-msg-linter (instala o linter para padronização dos commits)
 
+04 - npm i -D typescript @types/node (instala o typescript)
 
+05 - criar o tsconfig.json
