@@ -1,0 +1,19 @@
+Projeto Clean Node API
+Curso: NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID
+Prof: Rodrigo Manguinho
+
+Configuração GIT (Produtividade):
+1 - Executar o comando git config --global --edit, e acrescentar as seguintes linhas:
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
+Início do Projeto:
+01 - git init
+
+02 - npm init -y
+
+03 - npm i -D git-commit-msg-linter (instala o linter para padronização dos commits)
+
+
