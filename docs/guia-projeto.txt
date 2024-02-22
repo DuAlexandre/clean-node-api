@@ -19,3 +19,10 @@ Início do Projeto:
 04 - npm i -D typescript @types/node (instala o typescript)
 
 05 - criar o tsconfig.json
+
+06 - Instalar o Eslint:
+Usado no curso (Não funcionou): 
+npm install --save-dev eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@9 @typescript-eslint/eslint-plugin@2 eslint-config-standard-with-typescript
+
+Encontrado na Internet (eslint-plugin-standard está deprecated)
+npm install eslint eslint-config-standard eslint-plugin-promise @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-node eslint-config-standard-with-typescript --save-dev
