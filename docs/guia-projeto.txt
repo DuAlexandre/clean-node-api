@@ -28,3 +28,11 @@ npm install --save-dev eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4
 
 Encontrado na Internet (eslint-plugin-standard está deprecated)
 npm install eslint eslint-config-standard eslint-plugin-promise @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-node eslint-config-standard-with-typescript --save-dev
+
+07 - Instalar o husky:
+npm i -D husky
+
+08 - Instalar o lint-staged:
+npm i -D lint-staged
+
+Husky e lint-staged usarão o eslint somente nos arquivos que estão na estaged area (prestes a serem commitados)
