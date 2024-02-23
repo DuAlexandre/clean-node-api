@@ -12,7 +12,7 @@
     "*.ts": [
       "npx eslint src/** --fix",
       "npm run test:staged",
-      "git add"
+      "git add ."
     ]
   },
   "keywords": [],
